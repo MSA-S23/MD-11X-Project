@@ -37,8 +37,8 @@
 
     <wing x="-1.08" y="3.0" z="4.235" length="28.06" chord="12.0" sweep="35.0" taper="0.31" camber="0.20" dihedral="6.4" incidence="3.2" twist="-2.9" idrag="1.2">
 	<stall aoa="8.6" width="5" peak="0.8" />
-	<flap0 start="0.0" end="0.52" lift="2.0" drag="2.5" />
-	<flap1 start="0.53" end="0.825" lift="1.6" drag="1.8" />
+	<flap0 start="0.0" end="0.52" lift="1.6" drag="2.1" />
+	<flap1 start="0.53" end="0.825" lift="1.2" drag="1.4" />
 	<slat start="0.0" end="0.85" aoa="3.0" drag="1.1" />
 	<spoiler start="0.03" end="0.45" lift="1.0" drag="2.1" />
 	<control-input axis="/controls/flight/flaps" control="FLAP0"/>
@@ -84,7 +84,7 @@
     <fuselage ax="-22.427" ay="0.0" az="9.654" bx="-32.764" by="0.0" bz="9.293" width="2.84" taper="0.94" midpoint="0.0" />
     <!-- Actual engines -->
     
-    <jet x="3.541" y="8.138" z="3.541" mass="9047.0" thrust="96500.0" afterburner="0" rotate="0.0" n1-idle="33.0" n1-max="110.0" n2-idle="53.0" n2-max="103.0" tsfc="0.04" egt="700.0" epr="2.0" exhaust-speed="1105.0" spool-time="3.0">
+    <jet x="3.541" y="8.138" z="3.541" mass="9047.0" thrust="80700.0" afterburner="0" rotate="0.0" n1-idle="33.0" n1-max="110.0" n2-idle="53.0" n2-max="103.0" tsfc="0.04" egt="700.0" epr="2.0" exhaust-speed="1105.0" spool-time="3.0">
 	<control-input axis="/controls/engines/engine[0]/throttle-act" control="THROTTLE" />
 	<control-input axis="/controls/engines/engine[0]/reverser" control="REVERSE_THRUST" />
 	<control-output control="REVERSE_THRUST" prop="/engines/engine[0]/reverser-pos-norm" />
@@ -92,7 +92,7 @@
 	<actionpt x="2.461" y="8.138" z="2.536" />
     </jet>
     
-    <jet x="-30.564" y="0.0" z="10.5002" mass="9047.0" thrust="96500.0" afterburner="0" rotate="0.0" n1-idle="33.0" n1-max="110.0" n2-idle="53.0" n2-max="103.0" tsfc="0.04" egt="700.0" epr="2.0" exhaust-speed="1105.0" spool-time="3.0">
+    <jet x="-30.564" y="0.0" z="10.5002" mass="9047.0" thrust="80700.0" afterburner="0" rotate="0.0" n1-idle="33.0" n1-max="110.0" n2-idle="53.0" n2-max="103.0" tsfc="0.04" egt="700.0" epr="2.0" exhaust-speed="1105.0" spool-time="3.0">
 	<control-input axis="/controls/engines/engine[1]/throttle-act" control="THROTTLE" />
 	<control-input axis="/controls/engines/engine[1]/reverser" control="REVERSE_THRUST" />
 	<control-output control="REVERSE_THRUST" prop="/engines/engine[1]/reverser-pos-norm" />
@@ -100,7 +100,7 @@
 	<actionpt x="-24.871" y="0.0" z="9.293" />
     </jet>
     
-    <jet x="3.541" y="-8.138" z="3.541" mass="9047.0" thrust="96500.0" afterburner="0" rotate="0.0" n1-idle="33.0" n1-max="110.0" n2-idle="53.0" n2-max="103.0" tsfc="0.04" egt="700.0" epr="2.0" exhaust-speed="1105.0" spool-time="3.0">
+    <jet x="3.541" y="-8.138" z="3.541" mass="9047.0" thrust="80700.0" afterburner="0" rotate="0.0" n1-idle="33.0" n1-max="110.0" n2-idle="53.0" n2-max="103.0" tsfc="0.04" egt="700.0" epr="2.0" exhaust-speed="1105.0" spool-time="3.0">
 	<control-input axis="/controls/engines/engine[2]/throttle-act" control="THROTTLE" />
 	<control-input axis="/controls/engines/engine[2]/reverser" control="REVERSE_THRUST" />
 	<control-output control="REVERSE_THRUST" prop="/engines/engine[2]/reverser-pos-norm" />
