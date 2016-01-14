@@ -24,7 +24,7 @@
 	</menubar>
 		
 	<model n="0">
-	    <path>Aircraft/MD-11X/Models/MD-11.xml</path>
+	    <path>Aircraft/MD-11X/Models/MD-11X.xml</path>
 	    <armrest type="double">0</armrest>
 	    <door>
 		<position-x-m type="float">-22.647</position-x-m>
@@ -58,7 +58,7 @@
         <cdu n="0">
             <ident n="0">
                 <model>MD-11X</model>
-                <engines>PW1000G-P</engines>
+                <engines>PW1127G</engines>
             </ident>
         </cdu>
     </instrumentation>
