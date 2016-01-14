@@ -4,7 +4,7 @@
 <PropertyList include="MD-11X-main.xml">
 
     <sim>
-	<description>Prillick MD-11X Freighter</description>
+	<description>MD-11X Freighter</description>
 	<flight-model>yasim</flight-model>
 	<aero>MD-11X</aero>
     <startup>
@@ -17,7 +17,7 @@
 	<menubar>
 	    <default>
 		<menu n="100">
-		    <label>Prillick MD-11XF</label>
+		    <label>MD-11XF</label>
 		</menu>
 	    </default>
 	</menubar>
