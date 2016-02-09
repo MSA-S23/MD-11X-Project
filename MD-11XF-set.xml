@@ -9,8 +9,6 @@
 	<aero>MD-11X</aero>
     <startup>
             <splash-texture>Aircraft/MD-11X/Splash/Freighter/splash-1.png</splash-texture>
-            <splash-texture>Aircraft/MD-11X/Splash/Freighter/splash-2.png</splash-texture>
-            <splash-texture>Aircraft/MD-11X/Splash/Freighter/splash-3.png</splash-texture>
         
     </startup>
 
