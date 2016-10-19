@@ -5,7 +5,7 @@
 <PropertyList>
 
     <sim>
-        <author>MSA-S23 {Original model by Juuso Tapaninen)</author>
+        <author>MSA-S23 (Original model by Juuso Tapaninen)</author>
 	<status>alpha</status>
         <rating>
             <FDM type="int">4</FDM>
