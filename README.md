@@ -1,4 +1,1 @@
-# MD-11X
-FG Aircraft | MD-11X by it0uchpods (411)
-
-The assets and everything of the MD-11X is now owned by it0uchpods and 411 Aircraft Company. Enjoy.
+ATTENTION! This plane is no longer being update, and is likely very broken at this moment. Why don't you fly the better MD-11 aircraft? https://github.com/FGMEMBERS/MD-11
