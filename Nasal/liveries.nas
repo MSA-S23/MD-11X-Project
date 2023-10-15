@@ -1,2 +1,2 @@
 ## Livery select
-aircraft.livery.init("Aircraft/MD-11X/Models/Liveries/");
+aircraft.livery.init("Aircraft/MD-11/Models/Liveries/");

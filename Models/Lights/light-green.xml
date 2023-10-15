@@ -55,10 +55,10 @@
 	<condition>
 		<and>
 			<equals>
-				<property>/controls/lighting/nav-lights</property>
+				<property>controls/lighting/nav-lights</property>
 				<value>1</value>
 			</equals>
-			<property>/sim/rendering/rembrandt/enabled</property> 
+			<property>sim/rendering/rembrandt/enabled</property> 
 		</and>
 	</condition>
 </animation>

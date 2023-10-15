@@ -54,8 +54,8 @@
 	<object-name>LightVolNavStbd</object-name>
 	<condition>
 		<and>
-			<property>/controls/lighting/logo-lights</property>
-			<property>/sim/rendering/rembrandt/enabled</property> 
+			<property>controls/lighting/logo-lights</property>
+			<property>sim/rendering/rembrandt/enabled</property> 
 		</and>
 	</condition>
 </animation>

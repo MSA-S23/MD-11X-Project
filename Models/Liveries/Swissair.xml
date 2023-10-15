@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<PropertyList>
+	<sim>
+		<model>
+			<livery>
+				<name>Swissair</name>
+				<texture>Liveries/SWISSAIR.png</texture>
+			</livery>
+		</model>
+	</sim>
+	
+    <controls>
+      <cabin>
+        <cabinwindows type="int">2</cabinwindows>
+		</cabin>
+    </controls>
+    
+    
+</PropertyList>

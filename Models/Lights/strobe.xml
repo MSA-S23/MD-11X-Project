@@ -48,7 +48,7 @@
 <animation>
 	<type>scale</type>
 	<object-name>Light-Flare</object-name>
-	<property>/sim/time/sun-angle-rad</property>
+	<property>sim/time/sun-angle-rad</property>
 	<offset>-1.4</offset>
 	<x-min>1</x-min>
 	<y-min>1</y-min>
@@ -107,7 +107,7 @@
 	<object-name>Light-Flare</object-name>
 	<condition>
 		<equals>
-			<property>/sim/model/lights/strobe/state</property>
+			<property>sim/model/lights/strobe/state</property>
 			<value>1</value>
 		</equals>
 	</condition>
@@ -118,7 +118,7 @@
 	<object-name>LightNavStbd</object-name>
 	<condition>
 		<equals>
-			<property>/sim/model/lights/strobe/state</property>
+			<property>sim/model/lights/strobe/state</property>
 			<value>1</value>
 		</equals>
 	</condition>
@@ -127,7 +127,7 @@
 <animation>
 	<type>select</type>
 	<condition>
-		<property>/sim/rendering/rembrandt/enabled</property> 
+		<property>sim/rendering/rembrandt/enabled</property> 
 	</condition>
 </animation>
 
